@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body
+    {
+      width: 100%;
+      height: 100vh;
+      background-image: url(https://images.squarespace-cdn.com/content/v1/5ce6d339a8ffbf0001a8fb20/1560446821906-SKIWOASYF2FJIXZGM14G/Texture_12_003-1-copy.jpg?format=1500w);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 20px 20px;
+    }
+    .form
+    {
+      color: white;
+      font-family: sans-serif;
+      text-align: center;
+      position:relative;
+      right: 50px;
+      top: 20px;
+    }
+    .firstname,.lastname
+    {
+      color: white;
+      font-family: sans-serif ;
+      padding: 20px;
+    }
+    .firstname
+    {
+      padding: 0px;
+    }
+    .email
+    {
+      color: white;
+      font-family: sans-serif;
+      padding: 20px;
+    }
+    .query
+    {
+      color: white;
+      font-family: sans-serif;
+      padding: 10px;
+      position: relative;
+      right: 15px;
+     
+    }
+    
+    form
+    {
+      height: 50vh;
+      width: 100%;
+      text-align: center;
+      position: relative;
+      top: 60px;
+    }
+    .close
+    {
+      text-transform: uppercase;
+      position: relative;
+      left: 100px;
+      text-decoration: none;
+      color: white;
+    }
+    .close:hover
+    {
+      color: red;
+    }
+    .first,.last,.Email
+    {
+      padding: 10px;
+      text-align: justify;
+      border: 2px solid black;
+    }
+    .Email
+    {
+      position: relative;
+      left: 15px;
+    }
+    .sbmt
+    {
+      padding: 15px;
+      border-style:none ;
+      border-radius: 5px;
+      background-color:white;
+      color:black;
+      font-family: sans-serif;
+      margin-top: 50px;
+    }
+    .sbmt:hover
+    {
+      background-color:green;
+      color: white;
+      font-family: sans-serif;
+    }
+    #query
+    {
+      position: relative;
+      left: 10px;
+      top: 10px;
+    }
+  </style>
+  <title>ContactForm</title>
+</head>
+<body>
+  <h3 class="form">CONTACT FORM <span><a class="close" href="contactus.html">x</a></span>
+  </h3>
+<form action="">
+  <p class="firstname">First Name <input type="text" class="first" placeholder="e.g.Zaid"></p>
+  <p class="lastname">Last Name <input type="text" class="last" placeholder="e.g. khan"></p>
+  <p class="email">E-Mail <input type="email" class="Email" placeholder="e.g. xyz@gmail.com"></p>
+  <p class="query">Your Query<textarea name=" Query" id="query" cols="20" rows="4" placeholder="Enter Your Query Here"></textarea></p>
+  <button class="sbmt">Submit</button>
+ 
+</form>
+</body>
+</html>
